@@ -36,9 +36,9 @@ public class ModItems {
         EvMod.LOGGER.info("Registering Mod Items for " + EvMod.MOD_ID);
 
         // Register items in creative item group (ingredients)
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.INGREDIENTS).register((itemGroup)-> {
-            itemGroup.accept(ModItems.PINK_GARNET);
-            itemGroup.accept(ModItems.RAW_PINK_GARNET);
-            });
+//        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.INGREDIENTS).register((itemGroup)-> {
+//            itemGroup.accept(ModItems.PINK_GARNET);
+//            itemGroup.accept(ModItems.RAW_PINK_GARNET);
+//            });
     }
 }

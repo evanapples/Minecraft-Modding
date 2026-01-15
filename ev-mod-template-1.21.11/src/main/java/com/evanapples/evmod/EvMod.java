@@ -1,6 +1,7 @@
 package com.evanapples.evmod;
 
 import com.evanapples.evmod.block.ModBlocks;
+import com.evanapples.evmod.item.ModItemGroups;
 import com.evanapples.evmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -18,6 +19,7 @@ public class EvMod implements ModInitializer {
 
 		ModItems.initialize();
 		ModBlocks.initialize();
+		ModItemGroups.initialize();
 
 	}
 }
